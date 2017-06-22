@@ -1,3 +1,6 @@
+/**
+Package name
+*/
 package com.example;
 
 /**
@@ -13,10 +16,10 @@ public class Greeter {
   }
 
   /**
-  * This method prints out a greeting using a	
-  * String passed in the argument
+  * @param name of a person to greet	
+  * @return greeting String
   */
-  public String greet(String someone) {
+  public String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
